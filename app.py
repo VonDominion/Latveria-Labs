@@ -11,33 +11,37 @@ from predictor import predict_sentiment
 
 # ---------------- Sidebar ----------------
 
-st.sidebar.title("📌 Project Information")
+st.sidebar.title("📌 Project Overview")
 
 st.sidebar.markdown("""
 ### 🤖 Model
 Logistic Regression
 
 ### 📊 Model Accuracy
-**89%**
+**≈89%**
 
 ### 🔤 Feature Extraction
-TF-IDF
+TF-IDF Vectorizer
 
 ### 🎬 Dataset
 IMDb Movie Reviews
 
 50,000 Reviews
 
+Binary Classification
+
 ### 💻 Technologies
 
 - Python
 - Pandas
+- NumPy
+- NLTK
 - Scikit-Learn
 - Streamlit
-
 ---
 
 Mini Internship Project
+by Naitik Tiwari
 """)
 
 
@@ -66,8 +70,7 @@ st.markdown("---")
 
 st.write(
     """
-This application predicts whether a movie review is **Positive** or **Negative**
-using a Machine Learning model trained on the IMDb Movie Reviews Dataset.
+This application uses Natural Language Processing (NLP) and Machine Learning to classify IMDb movie reviews as Positive or Negative.
 """
 )
 
@@ -95,7 +98,7 @@ review = st.text_area(
 )
 
 st.caption(f"Characters: {len(review)}")
-
+st.caption("Minimum: 5 words")
 # --------------------------------------------------
 # Prediction
 # --------------------------------------------------
@@ -180,7 +183,7 @@ if predict:
 
 st.markdown("---")
 
-st.subheader("💡 Try These Example Reviews")
+st.subheader("💡Example Reviews")
 
 st.markdown("""
 ### 😊 Positive

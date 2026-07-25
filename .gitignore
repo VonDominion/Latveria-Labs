@@ -1,9 +1,16 @@
 # Virtual Environment
 venv/
+.venv/
+
+# Ignore datasets
+data/*.csv
+
+# Keep the README inside data/
+!data/README.md
 
 # Python cache
 __pycache__/
-*.pyc
+*.py[cod]
 
 # Jupyter
 .ipynb_checkpoints/
@@ -11,13 +18,6 @@ __pycache__/
 # VS Code
 .vscode/
 
-# Saved models
-models/*.pkl
-
-# Dataset
-data/*.csv
-
 # Operating System
 Thumbs.db
 .DS_Store
-
