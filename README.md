@@ -113,28 +113,19 @@ Streamlit Web Application
 Real-Time Sentiment Prediction
 
 
-## 🏗️ Project Architecture
+## 🏗 Project Architecture
 
-The following diagram illustrates the flow of data through the application, from user input to sentiment prediction.
-
-<p align="center">
-  <img src="assets/architecture/project_architecture.svg"
-       alt="Project Architecture"
-       width="700">
-</p>
+![Project Architecture](assets/architecture/project_architecture.svg)
 
 
 ## 🔄 Machine Learning Workflow
 
-The following workflow summarizes the complete machine learning pipeline used to build, evaluate, and deploy the sentiment analysis model.
-
-<p align="center">
-  <img src="assets/architecture/ml_workflow.svg"
-       alt="Machine Learning Workflow"
-       width="750">
-</p>
+![Machine Learning Workflow](assets/architecture/ml_workflow.svg)
 ```
 
+## 📁 Project Structure
+
+```text
 IMDb-Movie-Review-Sentiment-Analysis/
 │
 ├── app.py
@@ -158,8 +149,6 @@ IMDb-Movie-Review-Sentiment-Analysis/
 │       └── mixed_prediction_output.png
 │
 ├── data/
-│   ├── IMDb Dataset.csv
-│   └── clean_imdb_reviews.csv
 │
 ├── models/
 │   ├── sentiment_model.pkl
@@ -175,7 +164,7 @@ IMDb-Movie-Review-Sentiment-Analysis/
 │   ├── feature_engineering.py
 │   ├── predictor.py
 │   └── train_model.py
-│   
+│
 └── visualizations/
     ├── sentiment_distribution.png
     ├── review_length_distribution.png
@@ -183,6 +172,7 @@ IMDb-Movie-Review-Sentiment-Analysis/
     ├── wordcloud_negative.png
     ├── model_comparison.png
     └── confusion_matrix.png
+```
 
 
 ## 📊 Dataset
@@ -334,48 +324,45 @@ The application uses the saved TF-IDF vectorizer and Logistic Regression model t
 
 ## 🚀 Installation
 
-Clone the repository:
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Naitik-Tiwari/IMDb-Movie-Review-Sentiment-Analysis.git
+git clone https://github.com/VonDominion/Latveria-Labs.git
 ```
 
-Move into the project directory:
+### 2. Move into the project directory
 
 ```bash
-cd IMDb-Movie-Review-Sentiment-Analysis
+cd Latveria-Labs
 ```
 
-Create a virtual environment:
+### 3. Create a virtual environment
 
 ```bash
 python -m venv venv
 ```
 
-Activate the virtual environment:
+### 4. Activate the virtual environment
 
-### Windows
+**Windows**
 
 ```bash
 venv\Scripts\activate
 ```
 
-### Linux / macOS
+**macOS / Linux**
 
 ```bash
 source venv/bin/activate
 ```
 
-Install all required packages:
+### 5. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-
-## ▶️ Running the Application
-
-Launch the Streamlit application using:
+### 6. Run the Streamlit application
 
 ```bash
 streamlit run app.py
@@ -496,13 +483,11 @@ The model correctly predicts the review as **Negative** along with its confidenc
 This example demonstrates one of the limitations of traditional machine learning models. Since the review contains both positive and negative opinions, the TF-IDF + Logistic Regression model relies on statistical word patterns rather than understanding the complete context, which may lead to an incorrect prediction.
 
 
-## 🌐 Live Demo
+## 🚀 Live Demo
 
-🚧 Deployment in progress.
+🌐 **Project Doom**
 
-The application will be deployed on Streamlit Community Cloud.
-
-The live application link will be added after successful deployment.
+https://project-doom.streamlit.app
 
 
 ## 👨‍💻 Author
@@ -514,7 +499,7 @@ Computer Science & Engineering
 
 ### Connect with Me
 
-- GitHub: https://github.com/Naitik-Tiwari
+- GitHub: https://github.com/VonDominion
 
 ### Interests
 

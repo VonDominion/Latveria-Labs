@@ -5,7 +5,7 @@ import os
 # Add src folder to Python path
 sys.path.append(os.path.abspath("src"))
 
-from predictor import predict_sentiment
+from src.predictor import predict_sentiment
 
 
 
