@@ -66,52 +66,7 @@ The final application allows users to enter any IMDb-style movie review and inst
 | Version Control | Git & GitHub |
 
 
-## 🔄 Project Workflow
 
-The project follows a complete end-to-end machine learning pipeline:
-
-```text
-IMDb Dataset
-      │
-      ▼
-Data Loading
-      │
-      ▼
-Exploratory Data Analysis (EDA)
-      │
-      ▼
-Text Preprocessing
-• Remove HTML Tags
-• Remove URLs
-• Convert to Lowercase
-• Remove Punctuation
-• Remove Numbers
-• Remove Stopwords
-• Lemmatization
-      │
-      ▼
-TF-IDF Feature Extraction
-      │
-      ▼
-Train-Test Split (80:20)
-      │
-      ▼
-Model Training
-• Naive Bayes
-• Logistic Regression
-      │
-      ▼
-Model Evaluation
-      │
-      ▼
-Save Trained Model & Vectorizer
-      │
-      ▼
-Streamlit Web Application
-      │
-      ▼
-Real-Time Sentiment Prediction
-''' 
 
 
 ## 🏗 Project Architecture
