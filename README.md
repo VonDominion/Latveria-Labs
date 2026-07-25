@@ -116,12 +116,19 @@ Real-Time Sentiment Prediction
 
 ## 🏗 Project Architecture
 
-![Project Architecture](assets/architecture/project_architecture.png)
+<p align="center">
+  <img src="assets/architecture/project_architecture.png"
+      
+       width="900">
+</p>
 
 ## 🔄 Machine Learning Workflow
 
-![Machine Learning Workflow](assets/architecture/ml_workflow.png)
-
+<p align="center">
+  <img src="assets/architecture/ml_workflow.png"
+       
+       width="900">
+</p>
 
 ## 📁 Project Structure
 
