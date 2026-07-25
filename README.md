@@ -71,19 +71,11 @@ The final application allows users to enter any IMDb-style movie review and inst
 
 ## 🏗 Project Architecture
 
-<p align="center">
-  <img src="assets/architecture/project_architecture.png"
-      
-       width="900">
-</p>
+![Project Architecture](assets/architecture/project_architecture.png)
 
 ## 🔄 Machine Learning Workflow
 
-<p align="center">
-  <img src="assets/architecture/ml_workflow.png"
-       
-       width="900">
-</p>
+![Machine Learning Workflow](assets/architecture/ml_workflow.png)
 
 ## 📁 Project Structure
 
