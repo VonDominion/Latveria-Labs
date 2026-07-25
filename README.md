@@ -111,17 +111,17 @@ Streamlit Web Application
       │
       ▼
 Real-Time Sentiment Prediction
+''' 
 
 
 ## 🏗 Project Architecture
 
 ![Project Architecture](assets/architecture/project_architecture.svg)
 
-
 ## 🔄 Machine Learning Workflow
 
 ![Machine Learning Workflow](assets/architecture/ml_workflow.svg)
-```
+
 
 ## 📁 Project Structure
 
@@ -516,27 +516,6 @@ This project is licensed under the MIT License.
 Feel free to use, modify, and learn from this project with proper attribution.
 
 
-                    User
-                      │
-                      ▼
-          Streamlit Web Application
-                      │
-                      ▼
-             User enters review
-                      │
-                      ▼
-           Text Preprocessing (NLTK)
-                      │
-                      ▼
-         TF-IDF Feature Extraction
-                      │
-                      ▼
-     Logistic Regression Classifier
-                      │
-                      ▼
-     Sentiment + Confidence Score
-                      │
-                      ▼
-           Display Result to User
+                    
 
 
