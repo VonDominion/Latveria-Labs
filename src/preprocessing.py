@@ -1,14 +1,22 @@
 import re
 import string
+import nltk
+
+# Download required NLTK resources (safe if already present)
+nltk.download("stopwords", quiet=True)
+nltk.download("punkt", quiet=True)
+nltk.download("punkt_tab", quiet=True)   # Needed by newer NLTK versions
+nltk.download("wordnet", quiet=True)
+nltk.download("omw-1.4", quiet=True)
 
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
 
-
 # Initialize reusable NLP objects
 stop_words = set(stopwords.words("english"))
 lemmatizer = WordNetLemmatizer()
+
 
 def remove_html(text):
     """
